@@ -34,7 +34,7 @@ struct bcm_bt_lpm_data {
 	int bt_wake_installed;
 	int host_wake_installed;
         int state;
-      };
+};
 
 enum {
   ENABLE_LPM_TYPE_OOB_USER,
@@ -58,7 +58,7 @@ extern int brcm_init_hostwake(struct bcm_bt_lpm_platform_data *gpio_data);
 #define GPIO_BT_CLK32K_EN (-1)
 
 
-+/* this define electrical level of GPIO for assert/de-asserted stated. */
+/* this define electrical level of GPIO for assert/de-asserted stated. */
 
 #ifndef BT_WAKE_ASSERT
 #define BT_WAKE_ASSERT 1
